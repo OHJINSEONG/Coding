@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BMI {
+public class WhatsmyBMI {
     public static void main(String[] args) {
         System.out.println("BMI 측정기");
         Scanner scanner = new Scanner(System.in);
@@ -19,7 +19,6 @@ public class BMI {
             System.out.println("BMI: " + x);
             return;
 
-
         }
         if ((x < 23) || (x == 23)) {
             System.out.println("비만도 결과: 정상");
@@ -36,7 +35,5 @@ public class BMI {
             System.out.println("BMI: " + x);
             return;
         }
-
-
     }
 }
