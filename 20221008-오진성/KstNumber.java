@@ -7,7 +7,7 @@ class Solution {
         for (int i = 0, size = commands.length; i < size; i+=1) {
             int start = commands[i][0] - 1;
             int end = commands[i][1];
-            int k = commands[i][2] - 1; 
+            int k = commands[i][2] - 1;
 
             int[] temp = Arrays.copyOfRange(array, start, end);
             Arrays.sort(temp);
